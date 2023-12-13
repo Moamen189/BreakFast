@@ -1,7 +1,5 @@
-Certainly! I've added the provided information to the "Usage" and "Contributing" sections in the README:
 
-```markdown
-# Intalio Breakfast
+# Breakfast
 
 Intalio Breakfast is a simple web application for managing a breakfast menu. Users can add, edit, and delete items with their respective prices.
 
