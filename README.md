@@ -1,7 +1,7 @@
 
 # Breakfast
 
-Intalio Breakfast is a simple web application for managing a breakfast menu. Users can add, edit, and delete items with their respective prices.
+ Breakfast is a simple web application for managing a breakfast menu. Users can add, edit, and delete items with their respective prices.
 
 ## Features
 
