@@ -31,8 +31,15 @@ body {
   
   #container {
     text-align: center;
+    display: flex;
+    justify-content: space-around; 
   }
-  
+  .section {
+    text-align: center;
+    margin: 0 10px; 
+    display: inline-block; 
+    vertical-align: top; 
+  }
   .inputField {
     padding: 10px;
     font-size: 16px;
@@ -58,7 +65,31 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  
+  /* ... existing styles ... */
+
+#deliveryTable {
+  width: 300px;
+  margin: 20px auto; /* Adjust margin for spacing between tables */
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#deliveryTable th,
+#deliveryTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#deliveryTable th {
+  background-color: #f2f2f2;
+}
+#addDeliveryButton{
+  background-color: #3529be;
+  color: white;
+}
+
+/* ... existing styles ... */
+
   #addButton {
     background-color: #4caf50;
     color: white;
@@ -73,7 +104,7 @@ body {
   
   #dataTable {
     width: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
     border-collapse: collapse;
     text-align: left;
   }
@@ -86,4 +117,28 @@ body {
   #dataTable th {
     background-color: #f2f2f2;
   }
-  
+  /* ... existing styles ... */
+
+#foodTable {
+  width: 300px;
+  margin: 20px auto; /* Adjust margin for spacing between tables */
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#foodTable th,
+#foodTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#foodTable th {
+  background-color: #f2f2f2;
+}
+
+#addFoodButton {
+  background-color: #be2929;
+  color: white;
+}
+
+/* ... existing styles ... */

@@ -7,9 +7,31 @@
   <link rel="stylesheet" href="css/breakfast.css">
 </head>
 <body>
-  <div id="container">
-    <div id="intalioText">Intalio Breakfast</div>
 
+
+<div id="container">
+<div class="section">
+  <h2>Food Menu</h2>
+  <input type="text" id="foodNameInput" class="inputField" placeholder="Enter Food Name">
+  <input type="number" id="foodPriceInput" class="inputField" placeholder="Enter Food Price">
+  <button id="addFoodButton" class="button">Add Food</button>
+  <table id="foodTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+
+
+  <div class="section">
+    <!-- <div id="intalioText">Intalio Breakfast</div> -->
+    <h2>Developer Cost</h2>
     <input type="text" id="nameInput" class="inputField" placeholder="Enter Name">
     <input type="number" id="priceInput" class="inputField" placeholder="Enter Price">
     <button id="addButton" class="button">Add Developer</button>
@@ -24,6 +46,28 @@
       <tbody></tbody>
     </table>
   </div>
+
+  <div class="section">
+    <h2>Delivery Cost</h2>
+    <input type="number" id="deliveryCostInput" class="inputField" placeholder="Enter Delivery Cost" step="0.01">
+    <input type="number" id="developersInput" class="inputField" placeholder="Enter Number of Developers">
+    <button id="addDeliveryButton" class="button">Add Delivery Cost</button>
+    <table id="deliveryTable">
+      <thead>
+        <tr>
+          <th>Delivery Cost</th>
+          <th>Developers</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+
+
   <script src="js/breakfast.js"></script>
 </body>
 </html>
